@@ -199,6 +199,8 @@ function clickHandler() {
             outputEl.innerText = `No! your birthday is not palindrome. The next palindrome date is: ${nextDate.day}-${nextDate.month}-${nextDate.year}. You missed it by ${cnt1} days. 😢😢 and The previous palindrome date is: ${previousDate.day}-${previousDate.month}-${previousDate.year}.You missed it by ${cnt2} days. 😢😢 `
         }
 
+    } else {
+        outputEl.innerText = "Please select your Birthday...Birthday field should not be empty.";
     }
 }
 
